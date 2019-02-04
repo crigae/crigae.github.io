@@ -1,0 +1,228 @@
+body, form, input, label {
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+a {
+text-decoration: none;
+}
+
+a:link:hover {background-color: #eee; color:#000;}
+a:visited {background-color: #eee; color:#000;}
+a:active {background-color: #eee; color:#000;}
+
+p {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img {
+	width: 150px;
+	padding: 16px 0 5px 50px;
+}
+
+.nav {
+	padding: 16px 50px 0 0;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+.nav ul li {
+	display: inline;
+	padding: 0 20px;
+	color: black;
+}
+
+#homepage {
+	height: 90vh;
+	background-image: url("img/bkg-hp.jpg");
+	background-size: cover;
+	padding: 0 50px;
+}
+
+#realta-aumentata, #monzar, #come-funziona, #contatti, #mappa {
+	padding: 50px 50px;
+}
+
+#monzar, #mappa {
+	background-color: #eee;
+}
+
+.title-homepage {
+	font-size: 50px;
+	color: #fff;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	position: absolute;
+    bottom: 30px;
+    left: 0;
+    background-color: #0000006e;
+    padding: 10px;
+}
+
+#logo-scritta {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text h1 {
+	text-align: center;
+}
+
+.text p {
+	column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid #d2d2d2;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+}
+
+.title p {
+	padding-right: 17px;
+}
+.title, .immagine {
+	flex: 1 1 50%;
+}
+
+.immagine {
+	text-align: center;
+	padding: 40px 0 0 0;
+}
+
+.immagine img, .come-funziona img {
+	width: 35%;
+}
+
+.title h1 {
+	text-align: center;
+}
+
+.btn {
+  background-color: #da215c;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 25px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #cc0d4a;
+}
+
+.text-contatti {
+	display: flex;
+	padding: 1em;
+	align-items: center;
+}
+
+.form {
+	flex: 0 0 50%;
+	padding-left: 16px;
+}
+
+.contatti {
+	flex: 0 0 50%;
+	font-size: 20px;
+}
+
+label, input[type=text], textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+input[type=text], textarea {
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:  #da215c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:  #cc0d4a;
+}
+
+
+.telefono, .mail {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.social {
+	padding: 10px 10px 10px 30px;
+}
+
+.social img {
+	padding: 10px;
+}
+
+.immagine-funzionamento {
+	flex: 0 0 50%;
+	text-align: center;
+    padding: 40px 0 0 0;
+}
+
+.immagine-funzionamento img {
+	width: 35%;
+}
+
+.text-funzionamento {
+	flex: 1 1 50%;
+    padding: 40px 0 0 0;
+}
+
+.text-funzionamento ul {
+	list-style-type: none;
+	padding-left: 16px;
+}
+
+.text-funzionamento ul li {
+	font-size: 25px;
+	font-variant: small-caps;
+    line-height: 70px;
+}
+
+.ol-funzionamento {
+	font-weight: 600;
+	color: #da215c;
+}
+
+footer {
+	background-color: #1d1d1d;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
